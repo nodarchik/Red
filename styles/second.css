@@ -1,0 +1,97 @@
+*{
+    font-family: 'Nunito';
+    font-style: normal;
+}
+/* Redberry Knight Cup left header */
+.left-header{
+    color:#FFFFFF;
+    background: #7025FB;
+    position:absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 9%;
+    width: 48.5%;
+}
+/* Redberry Knight Cup header queen img*/
+.left-header .queen{
+    position: absolute;
+    left: 6%;
+    top: 35%;
+    bottom: 35%;
+}
+/* Redberry Knight Cup header Text */
+.left-header .heading-text{
+    position: absolute;
+    left: 9%;
+    top: 27%;
+    bottom: 27%;
+    width: 35%;
+    height: 50%;
+    font-weight: bolder;
+    font-size:150%;
+    margin: 0;
+}
+
+
+
+/*
+
+merge it's same;
+
+*/
+
+
+/* Registration page Left body */
+.left-body{
+    font-style: italic;
+    text-transform: uppercase;
+}
+/* Registration page Left body img*/
+.left-body img{
+    position:fixed;
+    width: 48.5%;
+    height: 100%;
+    left: 0;
+    top: 9%;
+}
+/* Registration page Left body text good move */
+.left-body .good-move{
+    position: absolute;
+    width: 423px;
+    height: 83px;
+    left: 132px;
+    top: 275px;
+    font-weight:900;
+    font-size: 165%;
+    line-height: 200%;
+    color: #212529;    
+}
+/* Registration page Left body text Emanuel Lasker */
+.left-body .lasker{
+    position: absolute;
+    width: 222px;
+    height: 33px;
+    left: 132px;
+    top: 402px;
+    font-weight: 500;
+    font-size: 140%;
+    line-height: 100%;
+    color: #E5E6E8;
+}
+
+.right-body .header-right{
+    position: absolute;
+    width: 215px;
+    height: 24px;
+    left: 971px;
+    top: 30px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    text-transform: capitalize;
+    color: #212529;
+}
