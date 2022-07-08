@@ -99,6 +99,9 @@
     background: #212529;
     border-radius: 8px;
 }
+.start:hover{
+    border: 4px solid rgba(194, 165, 249, 0.8);
+}
 /* Landing page right side get started button text */
 .right-body .get-started{
     color: #FFFFFF;

@@ -42,7 +42,14 @@
             <div class="form-info">Personal information</div>
             <div class="form-basic">This is basic informaton fields</div>
         </div>
-        <form class="form">
+        
+        <div class="error-name" id="error">
+            <img src="src/error.png" class="error-img" alt="error">
+            <div class="invalid-email">Invalid email</div>
+            <button class="error-close" onclick="document.getElementById('error').style.visibility='hidden'"><img src="src/close.png"  alt="close-img"></button>
+            <div class="invalid-email2">Please enter valid email address</div>
+        </div>
+        <form class="form" action="/" method="GET">
             <input type="text" name="Name" class="name" placeholder="Name" >
             <input type="email" name="Email address" class="email" placeholder="Email address">
             <input type="number" name="Phone number" class="phone" placeholder="Phone number">
@@ -53,14 +60,13 @@
                 <p class="back">Back</p>
             </a>
         </div>
-        <div class="next">
+        <div >
             <a  href="third.html" class="next" type="button">
                 <p class="next-text">Next</p>
                 <img src="src/arrow.png" alt="arrow" class="next-arrow">
             </a>            
         </div>
-
     </div>   
-
+<script src="app.js"></script>
 </body>
 </html>

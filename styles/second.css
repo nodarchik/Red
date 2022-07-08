@@ -269,6 +269,11 @@
     line-height: 27px;
     text-transform: capitalize;
 }
+
+.back:hover{
+    background: rgba(185, 180, 196, 0.3);
+    border: 1px solid rgba(194, 165, 249, 0.8);
+}
 /* Registration page right body next button*/
 .right-body .next{
     position: fixed;
@@ -278,6 +283,10 @@
     top:93%;    
     background: #212529;
     border-radius: 8px;    
+}
+/* Registration page right body next button hover effect*/
+.next:hover{
+    border: 4px solid rgba(194, 165, 249, 0.8);
 }
 /* Registration page right body next button text*/
 .right-body .next-text{
@@ -290,15 +299,53 @@
     color: #FFFFFF;
     position: absolute;
     top: 25%;
-    left: 10%;
+    left: 20%;
     margin: 0;
 
 }
 /* Registration page right body next button img*/
 .right-body .next-arrow{
     position: absolute;
-    left: 75%;
+    left: 60%;
     right: 0%;
-    top: 25%;
+    top: 27%;
     bottom: 0%;
+}
+/* Registration page right body error pop-up for email*/
+.right-body .error-name{
+    visibility:visible;
+    position:absolute;
+    left: 58%;
+    top: 18%;
+    padding: 0px;
+    width: 37%;
+    height: 10%;
+    background: rgba(255, 255, 255, 0.85);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+/* Registration page right body error pop-up for name img*/
+.error-name .error-img{
+    position: absolute;
+    top: 10%;
+    left: 3%;
+}
+/* Registration page right body error pop-up for name img*/
+.error-name .invalid-email{
+    position: absolute;
+    left: 10%;
+    top: 9%;
+}
+.error-name .error-close{
+    position: absolute;
+    top: 6%;
+    right: 3%;
+    border: none;
+    background: #FFFFFF;
+}
+.error-name .invalid-email2{
+    position:absolute;
+    left: 3%;
+    top: 60%;
 }
