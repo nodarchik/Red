@@ -31,7 +31,7 @@
     </div>
     <div class="right-body">
         <div class="box">
-            <div class="first">1</div>
+            <div class="first" id="first">1</div>
             <div class="second">2</div>
         </div>
         <div>
@@ -42,31 +42,77 @@
             <div class="form-info">Personal information</div>
             <div class="form-basic">This is basic informaton fields</div>
         </div>
+
+
+        <div class="errors">
+            <div class="error-name" id="error-name">
+                <img src="src/error.png" class="error-img" alt="error">
+                <div class="invalid-name" >Invalid Name</div>
+                <button class="error-close" onclick="document.getElementById('error-name').style.visibility='hidden'"
+                ><img src="src/close.png"  alt="close-img"></button>
+                <div class="invalid-name2" >Please enter valid Name</div>
+            </div>
         
-        <div class="error-name" id="error">
-            <img src="src/error.png" class="error-img" alt="error">
-            <div class="invalid-email">Invalid email</div>
-            <button class="error-close" onclick="document.getElementById('error').style.visibility='hidden'"><img src="src/close.png"  alt="close-img"></button>
-            <div class="invalid-email2">Please enter valid email address</div>
+        
+            <div class="error-email" id="error-email">
+                <img src="src/error.png" class="error-img" alt="error">
+                <div class="invalid-email" >Invalid Email</div>
+                <button class="error-close" onclick="document.getElementById('error-email').style.visibility='hidden'"
+                ><img src="src/close.png"  alt="close-img"></button>
+                <div class="invalid-email2" >Please enter valid Email address</div>
+            </div>
+        
+        
+            <div class="error-phone" id="error-phone">
+                <img src="src/error.png" class="error-img" alt="error">
+                <div class="invalid-phone" >Invalid Phone number</div>
+                <button class="error-close" onclick="document.getElementById('error-phone').style.visibility='hidden'"
+                ><img src="src/close.png"  alt="close-img"></button>
+                <div class="invalid-phone2" >Please enter valid Phone number</div>
+            </div>
+        
+        
+            <div class="error-date" id="error-date">
+                <img src="src/error.png" class="error-img" alt="error">
+                <div class="invalid-date" >Invalid Date</div>
+                <button class="error-close" onclick="document.getElementById('error-date').style.visibility='hidden'"
+                ><img src="src/close.png"  alt="close-img"></button>
+                <div class="invalid-date2" >Please enter valid Date of birth</div>
+            </div>
         </div>
-        <form class="form" action="/" method="GET">
-            <input type="text" name="Name" class="name" placeholder="Name" >
-            <input type="email" name="Email address" class="email" placeholder="Email address">
-            <input type="number" name="Phone number" class="phone" placeholder="Phone number">
-            <input type="datetime" name="Date of birth" class="date" placeholder="Date of birth">
+
+
+        <form class="form" id="form">
+            <div class="name">
+                <input   type="text" name="Name" class="name" id="name"  placeholder="Name">
+                <img src="src/correct.png" alt="check" id="correct-name">
+            </div>
+            <div class="email">
+                <input   type="text" name="Email address" id="email" class="email" placeholder="Email address">
+                <img src="src/correct.png" alt="check" id="correct-email">
+            </div>
+            <div class="phone">
+                <input   type="number" name="Phone number" id="number" class="phone" placeholder="Phone number">
+                <img src="src/correct.png" alt="check" id="correct-phone">
+            </div>
+            <div class="date">
+                <input   type="text" name="Date of birth" id="date" class="date" placeholder="Date of birth">
+                <img src="src/correct.png" alt="check" id="correct-date">
+            </div>
+          
+            <button  class="next" type="submit">
+                <p class="next-text">Next</p>
+                <img src="src/arrow.png" alt="arrow" class="next-arrow">
+            </button>   
         </form>
+
         <div class="back">
             <a  href="first.html" class="back" type="button">
                 <p class="back">Back</p>
             </a>
         </div>
-        <div >
-            <a  href="third.html" class="next" type="button">
-                <p class="next-text">Next</p>
-                <img src="src/arrow.png" alt="arrow" class="next-arrow">
-            </a>            
-        </div>
+
     </div>   
-<script src="app.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>

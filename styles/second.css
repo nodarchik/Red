@@ -233,6 +233,7 @@
     background: #FFFFFF;
     box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.125);
     border-radius: 4px;
+    
 }
 /* Registration page right body form phone number*/
 .right-body .phone{
@@ -311,12 +312,14 @@
     top: 27%;
     bottom: 0%;
 }
-/* Registration page right body error pop-up for email*/
+
+
+/* Registration page right body error pop-up for name*/
 .right-body .error-name{
-    visibility:visible;
+    visibility:hidden;
     position:absolute;
     left: 58%;
-    top: 18%;
+    top: 0%;
     padding: 0px;
     width: 37%;
     height: 10%;
@@ -332,11 +335,12 @@
     left: 3%;
 }
 /* Registration page right body error pop-up for name img*/
-.error-name .invalid-email{
+.error-name .invalid-name{
     position: absolute;
     left: 10%;
     top: 9%;
 }
+/* Registration page right body error pop-up close btn*/
 .error-name .error-close{
     position: absolute;
     top: 6%;
@@ -344,8 +348,146 @@
     border: none;
     background: #FFFFFF;
 }
-.error-name .invalid-email2{
+/* Registration page right body error pop-up for name text2 */
+.error-name .invalid-name2{
     position:absolute;
     left: 3%;
     top: 60%;
+}
+
+/* Registration page right body error pop-up for email*/
+.right-body .error-email{
+    visibility:hidden;
+    position:absolute;
+    left: 58%;
+    top: 10%;
+    padding: 0px;
+    width: 37%;
+    height: 10%;
+    background: rgba(255, 255, 255, 0.85);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+/* Registration page right body error pop-up for email img*/
+.error-email .error-img{
+    position: absolute;
+    top: 10%;
+    left: 3%;
+}
+/* Registration page right body error pop-up for email img*/
+.error-email .invalid-email{
+    position: absolute;
+    left: 10%;
+    top: 9%;
+}
+/* Registration page right body error pop-up close btn*/
+.error-email .error-close{
+    position: absolute;
+    top: 6%;
+    right: 3%;
+    border: none;
+    background: #FFFFFF;
+}
+/* Registration page right body error pop-up for email text2 */
+.error-email .invalid-email2{
+    position:absolute;
+    left: 3%;
+    top: 60%;
+}
+
+
+/* Registration page right body error pop-up for phone*/
+.right-body .error-phone{
+    visibility:hidden;
+    position:absolute;
+    left: 58%;
+    top: 20%;
+    padding: 0px;
+    width: 37%;
+    height: 10%;
+    background: rgba(255, 255, 255, 0.85);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+/* Registration page right body error pop-up for phone img*/
+.error-phone .error-img{
+    position: absolute;
+    top: 10%;
+    left: 3%;
+}
+/* Registration page right body error pop-up for phone img*/
+.error-phone .invalid-phone{
+    position: absolute;
+    left: 10%;
+    top: 9%;
+}
+/* Registration page right body error pop-up close btn*/
+.error-phone .error-close{
+    position: absolute;
+    top: 6%;
+    right: 3%;
+    border: none;
+    background: #FFFFFF;
+}
+/* Registration page right body error pop-up for phone text2 */
+.error-phone .invalid-phone2{
+    position:absolute;
+    left: 3%;
+    top: 60%;
+}
+
+
+/* Registration page right body error pop-up for date*/
+.right-body .error-date{
+    visibility:hidden;
+    position:absolute;
+    left: 58%;
+    top: 30%;
+    padding: 0px;
+    width: 37%;
+    height: 10%;
+    background: rgba(255, 255, 255, 0.85);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+/* Registration page right body error pop-up for date img*/
+.error-date .error-img{
+    position: absolute;
+    top: 10%;
+    left: 3%;
+}
+/* Registration page right body error pop-up for date img*/
+.error-date .invalid-date{
+    position: absolute;
+    left: 10%;
+    top: 9%;
+}
+/* Registration page right body error pop-up close btn*/
+.error-date .error-close{
+    position: absolute;
+    top: 6%;
+    right: 3%;
+    border: none;
+    background: #FFFFFF;
+}
+/* Registration page right body error pop-up for date text2 */
+.error-date .invalid-date2{
+    position:absolute;
+    left: 3%;
+    top: 60%;
+}
+#correct-name{
+    visibility: hidden;
+}
+#correct-email{
+    visibility: hidden;
+}
+#correct-phone{
+    visibility: hidden;
+}
+#correct-date{
+    visibility: hidden;
 }
